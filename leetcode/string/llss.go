@@ -13,7 +13,7 @@ func lengthOfLongestSubstring(s string) int {
 		if ok && lastI >= start {
 			start = lastI + 1
 		}
-		if i - start + 1 > maxLength{
+		if i-start+1 > maxLength {
 			maxLength = i - start + 1
 		}
 		lastOccurred[ch] = i
@@ -23,8 +23,7 @@ func lengthOfLongestSubstring(s string) int {
 }
 
 func main() {
-	res := lengthOfLongestSubstring("616161")
-	fmt.Println(res)
+	fmt.Println(lengthOfLongestSubstring("86743486438"))
 }
 
 /*
