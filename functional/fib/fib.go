@@ -1,4 +1,4 @@
-package main
+package fib
 
 import (
 	"bufio"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func fibonacci() intGen {
+func Fibonacci() IntGen {
 	a, b := 0, 1
 	return func() int {
 		a, b = b, a+b
@@ -15,9 +15,9 @@ func fibonacci() intGen {
 	}
 }
 
-type intGen func() int
+type IntGen func() int
 
-func (g intGen) Read(p []byte) (n int, err error) {
+func (g IntGen) Read(p []byte) (n int, err error) {
 	next := g()
 
 	if next > 10000 {
@@ -29,16 +29,10 @@ func (g intGen) Read(p []byte) (n int, err error) {
 	return strings.NewReader(s).Read(p)
 }
 
-func printFileContents(reader io.Reader) {
+func PrintFileContents(reader io.Reader) {
 	scanner := bufio.NewScanner(reader)
 
 	for scanner.Scan() {
 		fmt.Println(scanner.Text())
 	}
-}
-
-func main() {
-	f := fibonacci()
-
-	printFileContents(f)
 }
