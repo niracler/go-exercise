@@ -3,7 +3,7 @@ package tree
 import "fmt"
 
 type Node struct {
-	Value       int
+	Value       interface{}
 	Left, Right *Node
 }
 
