@@ -12,11 +12,11 @@ func (node Node) Print() {
 }
 
 // 不加星号就是值传递了
-func (node *Node) SetValue(value int) {
+func (node *Node) SetValue(value interface{}) {
 	node.Value = value
 }
 
-func CreateNode(value int) *Node {
+func CreateNode(value interface{}) *Node {
 	return &Node{Value: value}
 }
 
