@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"github.com/tietang/dbx"
 	"github.com/tietang/go-utils"
+	"github.com/tietang/props/ini"
+	"github.com/tietang/props/kvs"
 	"go-exercise/redpacket/infra"
-	"go-exercise/redpacket/infra/base"
 )
 
 func main() {
@@ -13,10 +14,9 @@ func main() {
 	fmt.Println(x)
 	utils.GetAllIP()
 
-	// 读取配置文件
-	propsStarter := base.PropsStarter{}
-	propsStarter.Init(infra.StarterContext{}) //初始化配置文件
-	conf := base.Props()
-	password := conf.GetDefault("mysql.password", "123456")
-	fmt.Println(password)
+	//加载和解析配置文件
+	file := kvs.GetCurrentFilePath("config.ini", 1)
+	conf := ini.NewIniFileConfigSource(file)
+	app := infra.New(conf)
+	app.Start()
 }
