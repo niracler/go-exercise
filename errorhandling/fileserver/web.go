@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gpmgo/gopm/modules/log"
+	//"github.com/gpmgo/gopm/modules/log"
 	"go-exercise/errorhandling/fileserver/filelsiting"
 	"net/http"
 	"os"
@@ -13,7 +13,7 @@ func errWrapper(handler appHandler) func(http.ResponseWriter, *http.Request) {
 	return func(writer http.ResponseWriter, request *http.Request) {
 		err := handler(writer, request)
 		if err != nil {
-			log.Warn("Error handling request: %s", err.Error())
+			//log.Warn("Error handling request: %s", err.Error())
 			code := http.StatusOK
 			switch {
 			case os.IsNotExist(err):
