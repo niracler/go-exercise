@@ -13,7 +13,12 @@ go mod vendor
 
 ## leetcode
 
-- [找出一棵树的从根节点到叶子的所有路径](leetcode/dfs/btreepaths/main.go)
+### dfs
+
+1. [找出一棵树的从根节点到叶子的所有路径](leetcode/dfs/btreepaths/main.go)
+
+2. [机器人走路的不同路径](leetcode/dfs/uniquepath1/main.go)
+
 
 ## 参考文章
 
