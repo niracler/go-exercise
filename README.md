@@ -8,8 +8,12 @@ export http_proxy=socks5://127.0.0.1:1080
 ```shell script
 go mod tidy
 go mod download
-go mod vend0r
+go mod vendor
 ```
+
+## leetcode
+
+- [找出一棵树的从根节点到叶子的所有路径](leetcode/dfs/btreepaths/main.go)
 
 ## 参考文章
 
