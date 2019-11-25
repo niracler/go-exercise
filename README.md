@@ -19,6 +19,10 @@ go mod vendor
 
 2. [机器人走路的不同路径](leetcode/dfs/uniquepath1/main.go)
 
+### bfs
+
+1. [二叉树的层序遍历](leetcode/bfs/lot/main.go)
+
 
 ## 参考文章
 
