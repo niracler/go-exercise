@@ -3,6 +3,7 @@ module go-exercise
 go 1.13
 
 require (
+	github.com/gin-gonic/gin v1.5.0
 	github.com/go-ini/ini v1.51.0 // indirect
 	github.com/json-iterator/go v1.1.8
 	github.com/sirupsen/logrus v1.4.1
