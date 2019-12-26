@@ -11,9 +11,9 @@ import (
 )
 
 type Person struct {
-	Name     string `form:"name" binding:"required"`
-	Address  string `form:"address"`
-	Age      int64 	`form:"age" binding:"required,gt=10"` // 必要字段，并且要大于10
+	Name     string    `form:"name" binding:"required"`
+	Address  string    `form:"address"`
+	Age      int64     `form:"age" binding:"required,gt=10"` // 必要字段，并且要大于10
 	Birthday time.Time `form:"birthday" time_format:"2006-01-02"`
 }
 
@@ -87,7 +87,7 @@ func main() {
 
 	// 获取bind参数， 并转换为结构体, 并验证结构体
 	r.GET("/to/struct", toStruct)
-	r.POST("/to/struct", toStruct)s
+	r.POST("/to/struct", toStruct)
 
 	_ = r.Run()
 }
