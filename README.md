@@ -15,6 +15,10 @@ go mod vendor
 
 ## leetcode
 
+### hash table
+
+1. [将字符串按照字符出现频率排序](leetcode/hash_table/frequency_sort/frequencySort.go)
+
 ### dfs
 
 1. [找出一棵树的从根节点到叶子的所有路径](leetcode/dfs/btreepaths/main.go)
