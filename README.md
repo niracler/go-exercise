@@ -1,6 +1,8 @@
 # go-exercise
 关于go的练习
 
+## 各种第三方包的安装
+
 ```shell script
 export http_proxy=socks5://127.0.0.1:1080
 ```
@@ -29,6 +31,7 @@ go mod vendor
 
 ## 参考文章
 
+- [Google资深工程师深度讲解Go语言](https://coding.imooc.com/class/180.html)
 - [go-get命令使用socket代理](http://www.hi-roy.com/2018/10/12/go-get%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8socket%E4%BB%A3%E7%90%86/)
 - [Gin入门实战](https://www.imooc.com/learn/1175)
 - [gin文档](https://gin-gonic.com/zh-cn/docs/)
