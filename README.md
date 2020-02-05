@@ -1,4 +1,5 @@
 # go-exercise
+
 关于go的练习
 
 ## 各种第三方包的安装
@@ -14,6 +15,10 @@ go mod vendor
 ```
 
 ## leetcode
+
+### queue
+
+1. [滑动窗口的最大值](leetcode/queue/sliding_window_maximum/sliding_window_maximum.go)
 
 ### hash table
 
