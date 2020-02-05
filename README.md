@@ -16,6 +16,10 @@ go mod vendor
 
 ## leetcode
 
+### stack
+
+1. [最小栈](leetcode/stack/min_stack/min_stack.go)
+
 ### queue
 
 1. [滑动窗口的最大值](leetcode/queue/sliding_window_maximum/sliding_window_maximum.go)
@@ -44,3 +48,4 @@ go mod vendor
 - [go-get命令使用socket代理](http://www.hi-roy.com/2018/10/12/go-get%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8socket%E4%BB%A3%E7%90%86/)
 - [Gin入门实战](https://www.imooc.com/learn/1175)
 - [gin文档](https://gin-gonic.com/zh-cn/docs/)
+- []()
