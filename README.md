@@ -87,7 +87,8 @@ go mod vendor
 
 ## 面向接口
 
-- go语言仅仅支持封装
+- go语言仅仅支持封装，不支持继承和多态
+- go语言没有class，只有struct
 - 结构体。
 - duck typing 的概念，当你实现了相应的接口就当你是那个类。
 - 组合的思想， go语言的接口是可以组合的， 那是怎么进行组合的呢？
@@ -142,6 +143,10 @@ go mod vendor
 - 单任务版->并发版->分布式版
 
 ## leetcode
+
+### string
+
+1. [最后一个单词的长度](leetcode/string/length_of_last_word/main.go)
 
 ### stack
 
