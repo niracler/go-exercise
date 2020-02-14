@@ -165,6 +165,7 @@ go mod vendor
 1. [找出一棵树的从根节点到叶子的所有路径](leetcode/dfs/btreepaths/main.go)
 2. [机器人走路的不同路径](leetcode/dfs/uniquepath1/main.go)
 3. [根节点到叶子节点的和为指定数的路径](leetcode/dfs/pathsum/main.go)
+4. [判断一棵树是否是平衡树](leetcode/dfs/balancetree/main.go)
 
 ### bfs
 
