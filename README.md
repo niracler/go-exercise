@@ -169,6 +169,7 @@ go mod vendor
 ### bfs
 
 1. [二叉树的层序遍历](leetcode/bfs/lot/main.go)
+1. [判断一棵树是否是对称的](leetcode/bfs/symmetrictree/main.go)
 
 ## web 框架
 
