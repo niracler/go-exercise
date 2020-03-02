@@ -192,6 +192,10 @@ go 语言的 duck typing
 
 ## leetcode
 
+### array
+
+1. [找字符串中的最大回文段](leetcode/array/longestPalindrome/main.go)
+
 ### string
 
 1. [最后一个单词的长度](leetcode/string/length_of_last_word/main.go)
