@@ -196,6 +196,7 @@ go 语言的 duck typing
 
 1. [找字符串中的最大回文段](leetcode/array/longestPalindrome/main.go)
 2. [腐烂的橘子](leetcode/array/orangesRotting/main.go)
+3. [连续和为x的数](leetcode/array/findContinuousSequence/main.go)
 
 ### string
 
