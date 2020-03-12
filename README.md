@@ -201,6 +201,7 @@ go 语言的 duck typing
 ### string
 
 1. [最后一个单词的长度](leetcode/string/length_of_last_word/main.go)
+2. [字符串的最大公因子](leetcode/string/gcd_of_strings/main.go)
 
 ### stack
 
@@ -213,6 +214,10 @@ go 语言的 duck typing
 ### hash table
 
 1. [将字符串按照字符出现频率排序](leetcode/hash_table/frequency_sort/frequencySort.go)
+
+### dp
+
+1. [买卖股票的最佳时机](leetcode/dp/best-time-to-buy-and-sell-stock/main.go)
 
 ### dfs
 
