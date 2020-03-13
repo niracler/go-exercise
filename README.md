@@ -232,6 +232,10 @@ go 语言的 duck typing
 1. [二叉树的层序遍历](leetcode/bfs/lot/main.go)
 1. [判断一棵树是否是对称的](leetcode/bfs/symmetrictree/main.go)
 
+### sort
+
+1. [把数组排成最小的数](leetcode/sort/minNumber/main.go)
+
 ## web 框架
 
 > 好像这个就是 go 这边用的比较多的 web 框架，用起来感觉跟 Python 的 Flask 框架差不多。
