@@ -219,6 +219,7 @@ go 语言的 duck typing
 ### dp
 
 1. [买卖股票的最佳时机](leetcode/dp/best-time-to-buy-and-sell-stock/main.go)
+2. [最长上升子序列](leetcode/dp/lengthOfLIS/main.go)
 
 ### dfs
 
