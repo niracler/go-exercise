@@ -203,6 +203,7 @@ go 语言的 duck typing
 
 1. [最后一个单词的长度](leetcode/string/length_of_last_word/main.go)
 2. [字符串的最大公因子](leetcode/string/gcd_of_strings/main.go)
+3. [字符串压缩](leetcode/string/compressString/main.go)
 
 ### stack
 
