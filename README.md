@@ -221,6 +221,8 @@ go 语言的 duck typing
 
 1. [买卖股票的最佳时机](leetcode/dp/best-time-to-buy-and-sell-stock/main.go)
 2. [最长上升子序列](leetcode/dp/lengthOfLIS/main.go)
+3. [面试题10- I. 斐波那契数列](leetcode/dp/fib/main.go)
+
 
 ### dfs
 
