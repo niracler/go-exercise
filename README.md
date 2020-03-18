@@ -225,6 +225,7 @@ go 语言的 duck typing
 4. [面试题10- II. 青蛙跳台阶问题](leetcode/dp/numWays/main.go)
 5. [三角形的最小路径和](leetcode/dp/minimumTotal/main.go)
 6. [最大连续乘积](leetcode/dp/maxProduct/main.go)
+7. [买卖股票I](leetcode/dp/)
 
 ### dfs
 
